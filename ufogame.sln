@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ufogame.CSharp", "ufogame.CSharp.csproj", "{C92AABE1-47FD-159D-64D0-B190968DA6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ufogame.CSharp.Editor", "ufogame.CSharp.Editor.csproj", "{62475B34-797E-2C63-99F4-9A47B7D126FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C92AABE1-47FD-159D-64D0-B190968DA6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92AABE1-47FD-159D-64D0-B190968DA6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92AABE1-47FD-159D-64D0-B190968DA6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92AABE1-47FD-159D-64D0-B190968DA6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62475B34-797E-2C63-99F4-9A47B7D126FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62475B34-797E-2C63-99F4-9A47B7D126FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62475B34-797E-2C63-99F4-9A47B7D126FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62475B34-797E-2C63-99F4-9A47B7D126FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
