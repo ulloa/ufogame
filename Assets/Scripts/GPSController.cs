@@ -8,7 +8,7 @@ public class GPSController : MonoBehaviour {
     public float latitude;
     public float longitude;
 
-    private void Start()
+    private void FixedUpdate() // Change Start to Update if you want to get this every frame or try something else
     {
         Instance = this;
         DontDestroyOnLoad(gameObject); //doesn't destroy when changin scenes
@@ -20,8 +20,10 @@ public class GPSController : MonoBehaviour {
     private IEnumerator StartLocationService()
     {
         if(!Input.location.isEnabledByUser)
-        {
+        {   
             Debug.Log("User has no permission");
+            latitude += 1; // just to test update on laptop
+            longitude += 1; // just to test update on laptop
             yield break;
         }
 

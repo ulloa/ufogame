@@ -1,0 +1,12 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class ButtonManager : MonoBehaviour {
+
+    public void NewGameButton(string newGameLevel)
+    {
+        SceneManager.LoadScene(newGameLevel); // load the whatever the input was
+    }
+}
